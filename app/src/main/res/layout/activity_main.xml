@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="322dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameOfUser"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/set_pretty"
+        android:layout_width="288dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="set prettyname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profile_img"
+        android:layout_width="121dp"
+        android:layout_height="87dp"
+
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="77dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginRight="196dp"
+        android:onClick="uploadToServer"
+        android:text="set"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

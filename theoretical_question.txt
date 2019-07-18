@@ -1,0 +1,7 @@
+use of sharedpreferences:
+con: can only be used from one device, because the data is being save on the device's memory
+pro: less overhead, no need to contact the server in every run
+
+use of server:
+con: a lot of overhead. calling server every run.
+pro: allows multiple devices use.
